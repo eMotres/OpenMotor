@@ -9,21 +9,16 @@ export default function Hero() {
       
       <div className="container mx-auto px-6 relative z-10 max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="flex flex-col gap-8 items-start">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-light border border-gray-200 text-xs font-mono text-brand-slate uppercase tracking-wider">
-              <span className="w-2 h-2 rounded-full bg-brand-orange animate-pulse" />
-              System Status: Operational
-            </div>
-            
+          <div className="flex flex-col gap-8 items-start">  
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-brand-navy leading-[1.1]">
-              Open Source <br />
+              OpenMotor <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-navy to-brand-slate">
                 Industrial Propulsion
               </span>
             </h1>
             
             <p className="text-xl md:text-2xl text-brand-slate max-w-2xl font-light leading-relaxed">
-              High performance electric motors for Drones, Aviation, Robotics and Propulsion. 
+              Open Source High-Voltage electric motors for Drones, Aviation, Robotics and Propulsion. 
               <span className="block mt-2 font-medium text-brand-navy">Designed for Mass Manufacturing.</span>
             </p>
             

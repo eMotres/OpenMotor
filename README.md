@@ -1,6 +1,7 @@
-# eMotres Landing (OpenMotor)
+# OpenMotor Landing Page
 
-Landing page for OpenMotor - High-Voltage Motors for Agriculture, Logistics, and Manned Aviation. Open Source Hardware project.
+Landing page for **OpenMotor** - High-Voltage Motors for Agriculture, Logistics, and Manned Aviation. 
+An Open Source Hardware project.
 
 ## Tech Stack
 

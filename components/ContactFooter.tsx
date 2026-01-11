@@ -10,7 +10,7 @@ export default function ContactFooter() {
           <div>
             <h2 className="text-3xl font-bold text-brand-navy mb-6">Start Your Project</h2>
             <p className="text-brand-slate mb-10 text-lg leading-relaxed">
-              Ready to integrate eMotres propulsion? Contact our engineering team for detailed specs, CAD models, and NRE estimation.
+              Ready to integrate OpenMotor propulsion? Contact our engineering team for detailed specs, CAD models, and NRE estimation.
             </p>
             
             <div className="space-y-8">
