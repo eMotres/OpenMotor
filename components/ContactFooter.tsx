@@ -27,10 +27,10 @@ export default function ContactFooter() {
               </div>
               
               <div className="flex gap-4 pt-4">
-                <a href="#" className="px-6 py-3 bg-white border border-gray-200 text-brand-navy font-bold rounded-sm hover:border-brand-navy hover:shadow-lg transition-all flex items-center gap-2 group">
+                <a href="https://github.com/eMotres/OpenMotor-Hardware" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-white border border-gray-200 text-brand-navy font-bold rounded-sm hover:border-brand-navy hover:shadow-lg transition-all flex items-center gap-2 group">
                   <Github className="w-4 h-4 group-hover:scale-110 transition-transform" /> GitHub
                 </a>
-                <a href="#" className="px-6 py-3 bg-white border border-gray-200 text-brand-navy font-bold rounded-sm hover:border-brand-navy hover:shadow-lg transition-all flex items-center gap-2 group">
+                <a href="https://github.com/eMotres/OpenMotor-Hardware#readme" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-white border border-gray-200 text-brand-navy font-bold rounded-sm hover:border-brand-navy hover:shadow-lg transition-all flex items-center gap-2 group">
                   <BookOpen className="w-4 h-4 group-hover:scale-110 transition-transform" /> Docs
                 </a>
               </div>

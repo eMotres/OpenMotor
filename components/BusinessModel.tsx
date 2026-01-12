@@ -22,7 +22,7 @@ export default function BusinessModel() {
             <p className="text-brand-slate leading-relaxed mb-8 text-sm h-20">
               Access our base designs. Download stators, rotors, and winding schematics directly from our GitHub repository.
             </p>
-            <a href="#" className="inline-flex items-center gap-2 text-sm font-bold text-brand-navy group-hover:text-brand-orange transition-colors uppercase tracking-wide">
+            <a href="https://github.com/eMotres/OpenMotor-Hardware" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-brand-navy group-hover:text-brand-orange transition-colors uppercase tracking-wide">
               Access Repo <ArrowRight className="w-4 h-4" />
             </a>
           </div>

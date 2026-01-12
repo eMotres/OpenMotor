@@ -15,7 +15,7 @@ export default function ProductMatrix() {
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-brand-navy mb-4">Propulsion Matrix</h2>
           <p className="text-brand-slate max-w-2xl">
-            Supports 100–800 V via flexible coil topology. Built for heavy-duty applications.
+            Supports 50–800 V via flexible coil topology. Built for heavy-duty applications.
           </p>
         </div>
 

@@ -29,7 +29,7 @@ export default function Technology() {
             </p>
             
             <div className="p-6 bg-white/5 border border-white/10 backdrop-blur-sm rounded-sm">
-              <div className="text-5xl font-bold text-brand-orange mb-2 font-mono">94%</div>
+              <div className="text-5xl font-bold text-brand-orange mb-2 font-mono">97%</div>
               <div className="text-white/60 font-medium uppercase tracking-widest text-sm">Peak Efficiency</div>
             </div>
           </div>
