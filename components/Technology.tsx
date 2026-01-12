@@ -6,8 +6,8 @@ const features = [
   "Tangential Magnet Polarization (High Torque Density)",
   "Rectangular Copper Wire (Maximum Fill Factor)",
   "Open or Closed (IP65) Design Options",
-  "High-Temperature Ceramic Insulation",
-  "High-Efficiency Active Air & Liquid Cooling",
+  "High thermal conductive Ceramic Insulation",
+  "High-Efficiency Air & Liquid Cooling",
   "Wide Voltage Range: 50V to 800V support",
   "Simplified Assembly (Design for Manufacturing)",
   "Full Supply Chain & Sourcing Support"

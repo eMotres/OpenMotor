@@ -34,7 +34,7 @@ export default function BusinessModel() {
             </div>
             <h3 className="text-xl font-bold text-brand-navy mb-4">Engineering (NRE)</h3>
             <p className="text-brand-slate leading-relaxed mb-8 text-sm h-20">
-              We adapt KV, shaft interfaces, mounting points, and voltage optimization for your specific airframe requirements.
+              We adapt KV, Power,shaft interfaces, mounting points, and voltage optimization for your specific requirements.
             </p>
             <span className="inline-block px-3 py-1 bg-brand-light text-brand-slate text-xs font-mono font-bold uppercase tracking-wider">
               Project Basis
@@ -48,7 +48,7 @@ export default function BusinessModel() {
             </div>
             <h3 className="text-xl font-bold text-brand-navy mb-4">Prototyping</h3>
             <p className="text-brand-slate leading-relaxed mb-8 text-sm h-20">
-              We manufacture, assemble, and dyno-test a "Golden Sample" to validate performance specs before you scale.
+              We manufacture, assemble and test a Sample to validate performance specs before you scale.
             </p>
             <span className="inline-block px-3 py-1 bg-brand-light text-brand-slate text-xs font-mono font-bold uppercase tracking-wider">
               On Request

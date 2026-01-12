@@ -6,8 +6,29 @@ import Technology from '@/components/Technology';
 import ContactFooter from '@/components/ContactFooter';
 
 export default function Home() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'OpenMotor',
+    url: 'https://emotres.com',
+    image: 'https://emotres.com/CIAG_300.jpg',
+    sameAs: [
+      'https://github.com/eMotres',
+    ],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      email: 'vadim@motresres.com',
+      contactType: 'engineering support',
+    },
+    description: 'Open Source High-Voltage Motors for Agriculture, Logistics, and Manned Aviation.'
+  };
+
   return (
     <main className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <nav className="fixed w-full z-50 px-6 py-6 pointer-events-none">
         <div className="container mx-auto flex justify-between items-center">
           <div className="pointer-events-auto">

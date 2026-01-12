@@ -15,8 +15,7 @@ export default function ProductMatrix() {
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-brand-navy mb-4">Propulsion Matrix</h2>
           <p className="text-brand-slate max-w-2xl">
-            CIAN Series: Optimized for high-voltage heavy lift applications. 
-            All performance data calibrated at 400V nominal.
+            Supports 100–800 V via flexible coil topology. Built for heavy-duty applications.
           </p>
         </div>
 
