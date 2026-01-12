@@ -43,9 +43,9 @@ export default function Home() {
       </nav>
 
       <Hero />
+      <Technology />
       <ProductMatrix />
       <BusinessModel />
-      <Technology />
       <ContactFooter />
     </main>
   );

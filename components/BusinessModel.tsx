@@ -6,9 +6,9 @@ export default function BusinessModel() {
     <section id="services" className="py-24 bg-white">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="mb-16 text-center">
-          <h2 className="text-3xl font-bold text-brand-navy mb-4">Engagement Models</h2>
+          <h2 className="text-3xl font-bold text-brand-navy mb-4">Services & Collaboration</h2>
           <p className="text-brand-slate max-w-2xl mx-auto">
-            Flexible collaboration for every stage of product development.
+            Flexible engineering solutions for your propulsion needs.
           </p>
         </div>
 
@@ -20,7 +20,7 @@ export default function BusinessModel() {
             </div>
             <h3 className="text-xl font-bold text-brand-navy mb-4">Open Hardware Source</h3>
             <p className="text-brand-slate leading-relaxed mb-8 text-sm h-20">
-              Access our base designs. Download stators, rotors, and winding schematics directly from our GitHub repository.
+              Access our base designs. Download 3d models directly from our GitHub repository.
             </p>
             <a href="https://github.com/eMotres/OpenMotor-Hardware" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-brand-navy group-hover:text-brand-orange transition-colors uppercase tracking-wide">
               Access Repo <ArrowRight className="w-4 h-4" />
