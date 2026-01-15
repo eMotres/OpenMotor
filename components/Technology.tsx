@@ -44,7 +44,7 @@ export default function Technology() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {technologies.map((tech, index) => (
             <div key={index} className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100">
               <div className="h-48 w-full bg-gray-200 flex items-center justify-center">
