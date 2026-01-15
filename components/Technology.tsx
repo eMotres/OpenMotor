@@ -6,6 +6,8 @@ const technologies = [
     title: "Tangential magnet Polarization",
     placeholder: "FIG. 10 (Magnet Array)",
     image: "/Tangential magnet Polarization.jpg",
+    width: 1536,
+    height: 548,
     description: "Patented magnet array with polarization perpendicular to side walls concentrates flux, increasing field strength by 1.5x."
   },
   {
@@ -49,13 +51,14 @@ export default function Technology() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {technologies.map((tech, index) => (
             <div key={index} className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100">
-              <div className="h-72 w-full relative bg-gray-200 flex items-center justify-center">
+              <div className={`w-full relative bg-gray-200 flex items-center justify-center ${tech.image ? '' : 'h-72'}`}>
                 {tech.image ? (
                   <Image 
                     src={tech.image} 
                     alt={tech.title}
-                    fill
-                    className="object-cover"
+                    width={tech.width}
+                    height={tech.height}
+                    className="w-full h-auto"
                   />
                 ) : (
                   <span className="text-gray-400 font-mono text-sm">{tech.placeholder}</span>
