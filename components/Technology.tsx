@@ -6,13 +6,16 @@ const technologies = [
     title: "Tangential magnet Polarization",
     placeholder: "FIG. 10 (Magnet Array)",
     image: "/Tangential magnet Polarization.jpg",
-    width: 1536,
-    height: 548,
+    width: 1500,
+    height: 700,
     description: "Patented magnet array with polarization perpendicular to side walls concentrates flux, increasing field strength by 1.5x."
   },
   {
     title: "Flexible Winding Topology",
     placeholder: "FIG. 3 (Winding Topology)",
+    image: "/Flexible Winding Topology.jpg",
+    width: 1498,
+    height: 697,
     description: "Configurable single/double-layer winding with flexible series-parallel connections for wide KV adjustment."
   },
   {
