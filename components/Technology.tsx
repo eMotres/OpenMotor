@@ -1,25 +1,27 @@
 import React from 'react';
+import Image from 'next/image';
 
 const technologies = [
   {
-    title: "Tangential Polarization",
+    title: "Tangential magnet Polarization",
     placeholder: "FIG. 10 (Magnet Array)",
+    image: "/Tangential magnet Polarization.jpg",
     description: "Patented magnet array with polarization perpendicular to side walls concentrates flux, increasing field strength by 1.5x."
   },
   {
-    title: "Single-Layer Winding",
+    title: "Flexible Winding Topology",
     placeholder: "FIG. 3 (Winding Topology)",
-    description: "Single-layer winding allows thermal contact on 3 sides of the slot, significantly improving heat dissipation compared to double-layer designs."
+    description: "Configurable single/double-layer winding with flexible series-parallel connections for wide KV adjustment."
   },
   {
-    title: "High-Conductivity Insulation",
+    title: "Posebility High-Conductivity Insulation",
     placeholder: "FIG. 5 (Ceramic Layer)",
     description: "Ceramic insulation (AlN/Al2O3) provides superior thermal conductivity (up to 140 W/m·K) directly from coil to stator."
   },
   {
-    title: "Grain-Oriented Steel",
+    title: "Grain-Oriented and Non Oriented Steel",
     placeholder: "FIG. 4 (Stator Core)",
-    description: "Stator and rotor cores made of Grain-Oriented (GO) steel operate in linear B-H region, minimizing hysteresis losses."
+    description: "We utilize high-permeability Grain-Oriented (GO) or Non-Oriented steel (up to 1.9T saturation). This allows us to optimize the core for either maximum torque or high speed."
   },
   {
     title: "Floating Radiators",
@@ -27,9 +29,9 @@ const technologies = [
     description: "Spring-loaded radiator segments maintain constant pressure on the stator, automatically compensating for thermal expansion gaps."
   },
   {
-    title: "Rectangular Conductor",
+    title: "Rectangular wire Cross-Section",
     placeholder: "FIG. 5 (Wire Cross-section)",
-    description: "Rectangular wire cross-section increases slot fill factor to ~70%, reducing resistance and increasing current density."
+    description: "Rectangular wire cross-section increases slot fill factor to ~70%, reducing resistance and increasing current density and heat dissipation."
   }
 ];
 
@@ -47,8 +49,17 @@ export default function Technology() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {technologies.map((tech, index) => (
             <div key={index} className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100">
-              <div className="h-48 w-full bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-400 font-mono text-sm">{tech.placeholder}</span>
+              <div className="h-48 w-full relative bg-gray-200 flex items-center justify-center">
+                {tech.image ? (
+                  <Image 
+                    src={tech.image} 
+                    alt={tech.title}
+                    fill
+                    className="object-cover"
+                  />
+                ) : (
+                  <span className="text-gray-400 font-mono text-sm">{tech.placeholder}</span>
+                )}
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">{tech.title}</h3>
