@@ -49,6 +49,14 @@ const technologies = [
     width: 1501,
     height: 701,
     description: "Rectangular wire cross-section increases slot fill factor to ~70%, reducing resistance and increasing current density and heat dissipation."
+  },
+  {
+    title: "Open and Close ( IP65) motor construction",
+    placeholder: "Open vs IP65",
+    image: "/images/tech-housing.png",
+    width: 1500,
+    height: 700,
+    description: "We provide motors in both Open (O) configurations for optimal weight and Closed (C) versions. Our closed designs are fully sealed to IP65 standards, offering robust protection against dust and water for industrial applications."
   }
 ];
 
