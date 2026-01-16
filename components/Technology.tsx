@@ -3,6 +3,14 @@ import Image from 'next/image';
 
 const technologies = [
   {
+    title: "Scalable Power Architecture",
+    placeholder: "1kW to 1MW Range",
+    image: "/Scalable Power Architecture.jpg",
+    width: 1500,
+    height: 700,
+    description: "Our modular design is fully scalable, covering a massive performance range from 1 kW to 1 MW. Whether for light drones or heavy industrial propulsion, the core technology delivers industry-leading torque density across all sizes."
+  },
+  {
     title: "Tangential magnet Polarization",
     placeholder: "FIG. 10 (Magnet Array)",
     image: "/Tangential magnet Polarization.jpg",
@@ -48,12 +56,12 @@ const technologies = [
     image: "/Rectangular wire Cross-Section.jpg",
     width: 1501,
     height: 701,
-    description: "Rectangular wire cross-section increases slot fill factor to ~70%, reducing resistance and increasing current density and heat dissipation."
+    description: "Rectangular wire cross-section increases slot fill factor to ~80%, reducing resistance and increasing current density and heat dissipation."
   },
   {
     title: "Open and Close ( IP65) motor construction",
     placeholder: "Open vs IP65",
-    image: "/images/tech-housing.png",
+    image: "/Open and Close ( IP65) motor construction.jpg",
     width: 1500,
     height: 700,
     description: "We provide motors in both Open (O) configurations for optimal weight and Closed (C) versions. Our closed designs are fully sealed to IP65 standards, offering robust protection against dust and water for industrial applications."
@@ -71,7 +79,7 @@ export default function Technology() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {technologies.map((tech, index) => (
             <div key={index} className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 flex flex-col">
               <div className="p-6">
