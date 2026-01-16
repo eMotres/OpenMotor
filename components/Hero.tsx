@@ -41,7 +41,7 @@ export default function Hero() {
           </div>
 
           <div className="relative w-full flex justify-center lg:justify-end">
-            <div className="relative w-full max-w-[500px] aspect-square">
+            <div className="relative w-full max-w-[575px] aspect-square">
               <Image 
                 src="/CIAG_300.jpg" 
                 alt="OpenMotor Propulsion System"
