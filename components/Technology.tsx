@@ -72,14 +72,14 @@ export default function Technology() {
                   {tech.description}
                 </p>
               </div>
-              <div className={`w-full relative bg-gray-200 flex items-center justify-center ${tech.image ? '' : 'h-72'}`}>
+              <div className={`w-full relative bg-gray-200 flex items-center justify-center flex-grow ${tech.image ? '' : 'h-72'}`}>
                 {tech.image ? (
                   <Image 
                     src={tech.image} 
                     alt={tech.title}
                     width={tech.width}
                     height={tech.height}
-                    className="w-full h-auto"
+                    className="w-full h-full object-cover"
                   />
                 ) : (
                   <span className="text-gray-400 font-mono text-sm">{tech.placeholder}</span>
