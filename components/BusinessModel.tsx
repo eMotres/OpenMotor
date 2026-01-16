@@ -22,8 +22,8 @@ export default function BusinessModel() {
             <p className="text-brand-slate leading-relaxed mb-8 text-sm h-20">
               Access our base designs. Download 3d models directly from our GitHub repository.
             </p>
-            <a href="https://github.com/eMotres/OpenMotor-Hardware" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-brand-navy group-hover:text-brand-orange transition-colors uppercase tracking-wide">
-              Access Repo <ArrowRight className="w-4 h-4" />
+            <a href="https://github.com/eMotres/OpenMotor-Hardware" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-brand-orange transition-colors uppercase tracking-wide">
+              ACCESS REPO <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
           </div>
 
@@ -36,9 +36,9 @@ export default function BusinessModel() {
             <p className="text-brand-slate leading-relaxed mb-8 text-sm h-20">
               We adapt KV, Power,shaft interfaces, mounting points, and voltage optimization for your specific requirements.
             </p>
-            <span className="inline-block px-3 py-1 bg-brand-light text-brand-slate text-xs font-mono font-bold uppercase tracking-wider">
-              Project Basis
-            </span>
+            <a href="#contact" className="inline-flex items-center gap-2 text-sm font-bold text-brand-orange transition-colors uppercase tracking-wide">
+              PROJECT BASIS <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </a>
           </div>
 
           <div className="group p-8 border border-gray-200 bg-white hover:border-brand-orange/30 hover:shadow-2xl hover:shadow-brand-navy/5 transition-all duration-300 relative overflow-hidden">
@@ -50,9 +50,9 @@ export default function BusinessModel() {
             <p className="text-brand-slate leading-relaxed mb-8 text-sm h-20">
               We manufacture, assemble and test a Sample to validate performance specs before you scale.
             </p>
-            <span className="inline-block px-3 py-1 bg-brand-light text-brand-slate text-xs font-mono font-bold uppercase tracking-wider">
-              On Request
-            </span>
+            <a href="#contact" className="inline-flex items-center gap-2 text-sm font-bold text-brand-orange transition-colors uppercase tracking-wide">
+              ON REQUEST <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </a>
           </div>
         </div>
       </div>

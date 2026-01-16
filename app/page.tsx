@@ -4,6 +4,7 @@ import ProductMatrix from '@/components/ProductMatrix';
 import BusinessModel from '@/components/BusinessModel';
 import Technology from '@/components/Technology';
 import ContactFooter from '@/components/ContactFooter';
+import Patents from '@/components/Patents';
 
 export default function Home() {
   const jsonLd = {
@@ -37,6 +38,7 @@ export default function Home() {
             <a href="#products" className="hover:text-brand-orange transition-colors">Products</a>
             <a href="#services" className="hover:text-brand-orange transition-colors">Services</a>
             <a href="#technology" className="hover:text-brand-orange transition-colors">Technology</a>
+            <a href="#patents" className="hover:text-brand-orange transition-colors">Patents</a>
             <a href="#contact" className="hover:text-brand-orange transition-colors">Contact</a>
           </div>
         </div>
@@ -46,6 +48,7 @@ export default function Home() {
       <Technology />
       <ProductMatrix />
       <BusinessModel />
+      <Patents />
       <ContactFooter />
     </main>
   );
