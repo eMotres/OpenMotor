@@ -35,7 +35,7 @@ const technologies = [
     description: "We utilize high-permeability Grain-Oriented (GO) or Non-Oriented steel (up to 1.9T saturation). This allows us to optimize the core for either maximum torque or high speed."
   },
   {
-    title: "Floating Radiators",
+    title: "High-Efficiency Cooling System",
     placeholder: "FIG. 7 (Radiator System)",
     image: "/Floating Radiators.jpg",
     width: 1442,
