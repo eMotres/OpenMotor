@@ -82,7 +82,13 @@ export default function Technology() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
           {technologies.map((tech, index) => (
             <div key={index} className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 flex flex-col">
-              <div className="w-full relative bg-gray-200 flex items-center justify-center h-72">
+              <div className="p-6 flex-grow">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">{tech.title}</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {tech.description}
+                </p>
+              </div>
+              <div className="w-full relative bg-gray-200 flex items-center justify-center h-96">
                 {tech.image ? (
                   <Image 
                     src={tech.image} 
@@ -94,12 +100,6 @@ export default function Technology() {
                 ) : (
                   <span className="text-gray-400 font-mono text-sm">{tech.placeholder}</span>
                 )}
-              </div>
-              <div className="p-6 flex-grow">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{tech.title}</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {tech.description}
-                </p>
               </div>
             </div>
           ))}
