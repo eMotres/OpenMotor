@@ -79,7 +79,7 @@ export default function Technology() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
           {technologies.map((tech, index) => (
             <div key={index} className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 flex flex-col">
               <div className={`w-full relative bg-gray-200 flex items-center justify-center ${tech.image ? '' : 'h-72'}`}>
@@ -89,7 +89,7 @@ export default function Technology() {
                     alt={tech.title}
                     width={tech.width}
                     height={tech.height}
-                    className="w-full h-auto object-cover"
+                    className="w-full h-full object-cover"
                   />
                 ) : (
                   <span className="text-gray-400 font-mono text-sm">{tech.placeholder}</span>
