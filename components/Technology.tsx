@@ -82,7 +82,7 @@ export default function Technology() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
           {technologies.map((tech, index) => (
             <div key={index} className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 flex flex-col">
-              <div className={`w-full relative bg-gray-200 flex items-center justify-center ${tech.image ? '' : 'h-72'}`}>
+              <div className="w-full relative bg-gray-200 flex items-center justify-center h-72">
                 {tech.image ? (
                   <Image 
                     src={tech.image} 
