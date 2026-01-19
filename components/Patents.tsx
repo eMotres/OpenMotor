@@ -7,7 +7,7 @@ export default function Patents() {
     <section id="patents" className="py-24 bg-white">
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="mb-16 text-center">
-          <h2 className="text-3xl font-bold text-brand-navy mb-4">Intellectual Property Portfolio</h2>
+          <h2 className="text-4xl font-bold text-brand-navy mb-4">Intellectual Property Portfolio</h2>
           <p className="text-brand-slate max-w-2xl mx-auto">
             Our portfolio of international patents and applications.
           </p>
@@ -15,7 +15,7 @@ export default function Patents() {
 
         <div className="space-y-12">
           <div>
-            <h3 className="text-2xl font-semibold text-brand-navy mb-6 border-b pb-4">
+            <h3 className="text-3xl font-semibold text-brand-navy mb-6 border-b pb-4">
               International Applications (PCT)
             </h3>
             <ul className="space-y-4 text-brand-slate">
@@ -35,7 +35,7 @@ export default function Patents() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold text-brand-navy mb-6 border-b pb-4">
+            <h3 className="text-3xl font-semibold text-brand-navy mb-6 border-b pb-4">
               Granted & Registered
             </h3>
             <ul className="space-y-4 text-brand-slate">
@@ -77,7 +77,7 @@ export default function Patents() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold text-brand-navy mb-6 border-b pb-4">
+            <h3 className="text-3xl font-semibold text-brand-navy mb-6 border-b pb-4">
               Pending Applications
             </h3>
             <ul className="space-y-4 text-brand-slate">

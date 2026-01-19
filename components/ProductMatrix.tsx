@@ -39,7 +39,7 @@ export default function ProductMatrix() {
 
   const TechnicalResources = ({ product }: { product: Product }) => (
     <div className="p-4 bg-gray-50">
-      <h4 className="font-semibold text-gray-700 mb-3">Technical Resources</h4>
+      <h4 className="text-lg font-semibold text-gray-700 mb-3">Technical Resources</h4>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         {product.datasheetUrl ? (
           <a href={product.datasheetUrl} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-sm font-medium text-gray-600 hover:text-brand-orange transition-colors">
@@ -67,7 +67,7 @@ export default function ProductMatrix() {
     <section id="products" className="py-24 bg-brand-light border-b border-gray-200">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-brand-navy mb-4">Propulsion Matrix</h2>
+          <h2 className="text-4xl font-bold text-brand-navy mb-4">Propulsion Matrix</h2>
           <p className="text-brand-slate max-w-2xl">
             Supports 50–800 V via flexible coil topology. Built for heavy-duty applications.
           </p>

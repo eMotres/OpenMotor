@@ -6,7 +6,7 @@ export default function BusinessModel() {
     <section id="services" className="py-24 bg-white">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="mb-16 text-center">
-          <h2 className="text-3xl font-bold text-brand-navy mb-4">Services & Collaboration</h2>
+          <h2 className="text-4xl font-bold text-brand-navy mb-4">Services & Collaboration</h2>
           <p className="text-brand-slate max-w-2xl mx-auto">
             Flexible engineering solutions for your propulsion needs.
           </p>
@@ -18,7 +18,7 @@ export default function BusinessModel() {
             <div className="w-14 h-14 bg-brand-light rounded-sm flex items-center justify-center mb-8 group-hover:bg-white border border-gray-100 transition-colors">
               <Github className="w-7 h-7 text-brand-slate group-hover:text-brand-orange transition-colors" />
             </div>
-            <h3 className="text-xl font-bold text-brand-navy mb-4">Open Hardware Source</h3>
+            <h3 className="text-2xl font-bold text-brand-navy mb-4">Open Hardware Source</h3>
             <p className="text-brand-slate leading-relaxed mb-8 text-sm h-20">
               Access our base designs. Download 3d models directly from our GitHub repository.
             </p>
@@ -32,7 +32,7 @@ export default function BusinessModel() {
             <div className="w-14 h-14 bg-brand-light rounded-sm flex items-center justify-center mb-8 group-hover:bg-white border border-gray-100 transition-colors">
               <Settings className="w-7 h-7 text-brand-slate group-hover:text-brand-orange transition-colors" />
             </div>
-            <h3 className="text-xl font-bold text-brand-navy mb-4">Engineering (NRE)</h3>
+            <h3 className="text-2xl font-bold text-brand-navy mb-4">Engineering (NRE)</h3>
             <p className="text-brand-slate leading-relaxed mb-8 text-sm h-20">
               We adapt KV, Power,shaft interfaces, mounting points, and voltage optimization for your specific requirements.
             </p>
@@ -46,7 +46,7 @@ export default function BusinessModel() {
             <div className="w-14 h-14 bg-brand-light rounded-sm flex items-center justify-center mb-8 group-hover:bg-white border border-gray-100 transition-colors">
               <Hammer className="w-7 h-7 text-brand-slate group-hover:text-brand-orange transition-colors" />
             </div>
-            <h3 className="text-xl font-bold text-brand-navy mb-4">Prototyping</h3>
+            <h3 className="text-2xl font-bold text-brand-navy mb-4">Prototyping</h3>
             <p className="text-brand-slate leading-relaxed mb-8 text-sm h-20">
               We manufacture, assemble and test a Sample to validate performance specs before you scale.
             </p>

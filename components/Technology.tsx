@@ -73,7 +73,7 @@ export default function Technology() {
     <section id="technology" className="py-24 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Core Technology</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Core Technology</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Patented innovations driving high torque density and efficiency.
           </p>
@@ -83,7 +83,7 @@ export default function Technology() {
           {technologies.map((tech, index) => (
             <div key={index} className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 flex flex-col">
               <div className="p-6 flex-grow">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{tech.title}</h3>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-3">{tech.title}</h3>
                 <p className="text-gray-600 leading-relaxed">
                   {tech.description}
                 </p>

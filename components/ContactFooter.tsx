@@ -8,7 +8,7 @@ export default function ContactFooter() {
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="grid md:grid-cols-2 gap-20">
           <div>
-            <h2 className="text-3xl font-bold text-brand-navy mb-6">Start Your Project</h2>
+            <h2 className="text-4xl font-bold text-brand-navy mb-6">Start Your Project</h2>
             <p className="text-brand-slate mb-10 text-lg leading-relaxed">
               Ready to integrate OpenMotor propulsion? Contact our engineering team for detailed specs, CAD models, and NRE estimation.
             </p>
@@ -38,7 +38,7 @@ export default function ContactFooter() {
           </div>
 
           <div className="bg-white p-8 md:p-10 rounded-sm border border-gray-200 shadow-xl shadow-brand-navy/5">
-            <h3 className="text-lg font-bold text-brand-navy mb-6 uppercase tracking-wider border-b border-gray-100 pb-4">Request Consultation</h3>
+            <h3 className="text-xl font-bold text-brand-navy mb-6 uppercase tracking-wider border-b border-gray-100 pb-4">Request Consultation</h3>
             <ContactForm />
           </div>
         </div>

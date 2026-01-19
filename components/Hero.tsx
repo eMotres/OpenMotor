@@ -10,14 +10,14 @@ export default function Hero() {
       <div className="container mx-auto px-6 relative z-10 max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col gap-8 items-start">  
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-brand-navy leading-[1.1]">
+            <h1 className="text-6xl md:text-8xl font-bold tracking-tight text-brand-navy leading-[1.1]">
               OpenMotor <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-navy to-brand-slate">
                 Industrial Propulsion
               </span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-brand-slate max-w-2xl font-light leading-relaxed">
+            <p className="text-2xl md:text-3xl text-brand-slate max-w-2xl font-light leading-relaxed">
               Open Source High-Voltage electric motors for Drones, Aviation, Robotics and Propulsion. 
               <span className="block mt-2 font-medium text-brand-navy">Designed for Mass Manufacturing.</span>
             </p>
