@@ -12,7 +12,7 @@ interface Product {
 }
 
 const products: Product[] = [
-  { model: "CIAG 125_25", cont_power: "3.7 kW", rotation: "4300 rpm", thrust: "21 kg", voltage: "18S 75V", motor_mass: "2 kg", pdfUrl: "https://github.com/eMotres/OpenMotor-Hardware/raw/main/doc/CIAG%20125_25_datasheet.pdf" },
+  { model: "CIAG 125_25", cont_power: "3.7 kW", rotation: "4300 rpm", thrust: "21 kg", voltage: "18S 75V", motor_mass: "2 kg", pdfUrl: "https://raw.githack.com/eMotres/OpenMotor-Hardware/main/doc/CIAG%20125_25_datasheet.pdf" },
   { model: "CIAG 125_30", cont_power: "4.5 kW", rotation: "1900 rpm", thrust: "36kg", voltage: "18S 75V", motor_mass: "2.2 kg", pdfUrl: null },
   { model: "CIAG 175_40", cont_power: "13 kW", rotation: "3100 rpm", thrust: "60 kg", voltage: "168S 705V", motor_mass: "5.5 kg", pdfUrl: null },
 ];
