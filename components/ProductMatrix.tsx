@@ -1,9 +1,9 @@
 import React from 'react';
 
 const products = [
-  { model: "CIAG 125_25", cont_power: "3.7 kW", rotation: "4300 rpm", thrust: "21 kg", voltage: "18S 75V" },
-  { model: "CIAG 125_30", cont_power: "4.5 kW", rotation: "1900 rpm", thrust: "36kg", voltage: "18S 75V" },
-  { model: "CIAG 175_40", cont_power: "13 kW", rotation: "3100 rpm", thrust: "60 kg", voltage: "168S 705V" },
+  { model: "CIAG 125_25", cont_power: "3.7 kW", rotation: "4300 rpm", thrust: "21 kg", voltage: "18S 75V", motor_mass: "2 kg" },
+  { model: "CIAG 125_30", cont_power: "4.5 kW", rotation: "1900 rpm", thrust: "36kg", voltage: "18S 75V", motor_mass: "2.2 kg" },
+  { model: "CIAG 175_40", cont_power: "13 kW", rotation: "3100 rpm", thrust: "60 kg", voltage: "168S 705V", motor_mass: "5.5 kg" },
 ];
 
 export default function ProductMatrix() {
@@ -26,6 +26,7 @@ export default function ProductMatrix() {
                 <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Rotation speed</th>
                 <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Trust</th>
                 <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Battrey voltage</th>
+                <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Motor Mass</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
@@ -38,6 +39,7 @@ export default function ProductMatrix() {
                   <td className="p-4 py-5 font-mono text-brand-navy font-bold">{p.rotation}</td>
                   <td className="p-4 py-5 font-mono text-brand-navy font-bold">{p.thrust}</td>
                   <td className="p-4 py-5 font-mono text-brand-navy font-bold">{p.voltage}</td>
+                  <td className="p-4 py-5 font-mono text-brand-navy font-bold">{p.motor_mass}</td>
                 </tr>
               ))}
             </tbody>
