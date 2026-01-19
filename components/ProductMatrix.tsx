@@ -19,8 +19,7 @@ const products: Product[] = [
 
 export default function ProductMatrix() {
 
-  const handleRightClick = (event: React.MouseEvent, product: Product) => {
-    event.preventDefault();
+  const handleClick = (product: Product) => {
     if (product.pdfUrl) {
       window.open(product.pdfUrl, '_blank');
     } else {
@@ -54,8 +53,8 @@ export default function ProductMatrix() {
               {products.map((p, idx) => (
                 <tr 
                   key={idx} 
-                  className="hover:bg-blue-50/30 transition-colors group cursor-default"
-                  onContextMenu={(e) => handleRightClick(e, p)}
+                  className="hover:bg-blue-50/30 transition-colors group cursor-pointer"
+                  onClick={() => handleClick(p)}
                 >
                   <td className="p-4 py-5 font-bold text-brand-navy group-hover:text-brand-orange transition-colors">
                     {p.model}
