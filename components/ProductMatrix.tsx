@@ -1,11 +1,11 @@
 import React from 'react';
 
 const products = [
-  { model: "CIAN 100", app: "Agro", stator: "100mm", power: "5kW", thrust: "15kg" },
-  { model: "CIAN 150", app: "Logistics", stator: "150mm", power: "12kW", thrust: "60kg" },
-  { model: "CIAN 200", app: "Heavy Lift", stator: "200mm", power: "25kW", thrust: "100kg" },
-  { model: "CIAN 250", app: "Aviation", stator: "250mm", power: "50kW", thrust: "200kg" },
-  { model: "CIAN 300", app: "Mega Class", stator: "300mm", power: "100kW", thrust: "400kg" },
+  { model: "CIAN 100", cont_power: "5kW", rotation: "N/A", thrust: "15kg", voltage: "N/A" },
+  { model: "CIAN 150", cont_power: "12kW", rotation: "N/A", thrust: "60kg", voltage: "N/A" },
+  { model: "CIAN 200", cont_power: "25kW", rotation: "N/A", thrust: "100kg", voltage: "N/A" },
+  { model: "CIAN 250", cont_power: "50kW", rotation: "N/A", thrust: "200kg", voltage: "N/A" },
+  { model: "CIAN 300", cont_power: "100kW", rotation: "N/A", thrust: "400kg", voltage: "N/A" },
 ];
 
 export default function ProductMatrix() {
@@ -23,11 +23,11 @@ export default function ProductMatrix() {
           <table className="w-full text-left border-collapse">
             <thead>
               <tr className="bg-gray-50 border-b border-gray-200">
-                <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Model Series</th>
-                <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Application</th>
-                <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Stator Size</th>
-                <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Power (Cont)</th>
-                <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Max Thrust</th>
+                <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Model</th>
+                <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Continues power</th>
+                <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Rotation speed</th>
+                <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Trust</th>
+                <th className="p-4 py-6 font-mono text-xs uppercase tracking-wider text-gray-500 font-semibold">Battrey voltage</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
@@ -36,10 +36,10 @@ export default function ProductMatrix() {
                   <td className="p-4 py-5 font-bold text-brand-navy group-hover:text-brand-orange transition-colors">
                     {p.model}
                   </td>
-                  <td className="p-4 py-5 text-brand-slate font-medium">{p.app}</td>
-                  <td className="p-4 py-5 font-mono text-gray-600">{p.stator}</td>
-                  <td className="p-4 py-5 font-mono text-brand-navy font-bold">{p.power}</td>
+                  <td className="p-4 py-5 font-mono text-brand-navy font-bold">{p.cont_power}</td>
+                  <td className="p-4 py-5 font-mono text-brand-navy font-bold">{p.rotation}</td>
                   <td className="p-4 py-5 font-mono text-brand-navy font-bold">{p.thrust}</td>
+                  <td className="p-4 py-5 font-mono text-brand-navy font-bold">{p.voltage}</td>
                 </tr>
               ))}
             </tbody>
