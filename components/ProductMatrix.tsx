@@ -1,11 +1,9 @@
 import React from 'react';
 
 const products = [
-  { model: "CIAN 100", cont_power: "5kW", rotation: "N/A", thrust: "15kg", voltage: "N/A" },
-  { model: "CIAN 150", cont_power: "12kW", rotation: "N/A", thrust: "60kg", voltage: "N/A" },
-  { model: "CIAN 200", cont_power: "25kW", rotation: "N/A", thrust: "100kg", voltage: "N/A" },
-  { model: "CIAN 250", cont_power: "50kW", rotation: "N/A", thrust: "200kg", voltage: "N/A" },
-  { model: "CIAN 300", cont_power: "100kW", rotation: "N/A", thrust: "400kg", voltage: "N/A" },
+  { model: "CIAG 125_25", cont_power: "3.7 kW", rotation: "4300 rpm", thrust: "21 kg", voltage: "18S 75V" },
+  { model: "CIAG 125_30", cont_power: "4.5 kW", rotation: "1900 rpm", thrust: "36kg", voltage: "18S 75V" },
+  { model: "CIAG 175_40", cont_power: "13 kW", rotation: "3100 rpm", thrust: "60 kg", voltage: "168S 705V" },
 ];
 
 export default function ProductMatrix() {
