@@ -1,12 +1,22 @@
 import React from 'react';
 
 const products = [
-  { model: "CIAG 125_25", cont_power: "3.7 kW", rotation: "4300 rpm", thrust: "21 kg", voltage: "18S 75V", motor_mass: "2 kg" },
-  { model: "CIAG 125_30", cont_power: "4.5 kW", rotation: "1900 rpm", thrust: "36kg", voltage: "18S 75V", motor_mass: "2.2 kg" },
-  { model: "CIAG 175_40", cont_power: "13 kW", rotation: "3100 rpm", thrust: "60 kg", voltage: "168S 705V", motor_mass: "5.5 kg" },
+  { model: "CIAG 125_25", cont_power: "3.7 kW", rotation: "4300 rpm", thrust: "21 kg", voltage: "18S 75V", motor_mass: "2 kg", pdfUrl: "https://github.com/eMotres/OpenMotor-Hardware/raw/main/doc/CIAG%20125_25_datasheet.pdf" },
+  { model: "CIAG 125_30", cont_power: "4.5 kW", rotation: "1900 rpm", thrust: "36kg", voltage: "18S 75V", motor_mass: "2.2 kg", pdfUrl: null },
+  { model: "CIAG 175_40", cont_power: "13 kW", rotation: "3100 rpm", thrust: "60 kg", voltage: "168S 705V", motor_mass: "5.5 kg", pdfUrl: null },
 ];
 
 export default function ProductMatrix() {
+
+  const handleRightClick = (event, product) => {
+    event.preventDefault();
+    if (product.pdfUrl) {
+      window.open(product.pdfUrl, '_blank');
+    } else {
+      alert('Coming Soon');
+    }
+  };
+
   return (
     <section id="products" className="py-24 bg-brand-light border-b border-gray-200">
       <div className="container mx-auto px-6 max-w-6xl">
@@ -31,7 +41,11 @@ export default function ProductMatrix() {
             </thead>
             <tbody className="divide-y divide-gray-100">
               {products.map((p, idx) => (
-                <tr key={idx} className="hover:bg-blue-50/30 transition-colors group cursor-default">
+                <tr 
+                  key={idx} 
+                  className="hover:bg-blue-50/30 transition-colors group cursor-default"
+                  onContextMenu={(e) => handleRightClick(e, p)}
+                >
                   <td className="p-4 py-5 font-bold text-brand-navy group-hover:text-brand-orange transition-colors">
                     {p.model}
                   </td>
