@@ -45,7 +45,7 @@ export default function ContactFooter() {
         
         <div className="mt-20 pt-8 border-t border-gray-200 text-center">
           <p className="text-gray-400 text-sm font-mono">
-            © {new Date().getFullYear()} OpenMotor Engineering Bureau. Designed in Slovenia.
+            © {new Date().getFullYear()} OpenMotor foundation. Designed in EU.
           </p>
         </div>
       </div>

@@ -18,8 +18,8 @@ export default function Hero() {
             </h1>
             
             <p className="text-2xl md:text-3xl text-brand-slate max-w-2xl font-light leading-relaxed">
-              Open Source High-Voltage electric motors for Drones, Aviation, Robotics and Propulsion. 
-              <span className="block mt-2 font-medium text-brand-navy">Designed for Mass Manufacturing.</span>
+              Open Source Low and High Voltage electric motors for Drones, Aviation, Robotics and Propulsion. 
+              <span className="block mt-2 font-medium text-brand-navy">Designed for Mass Production.</span>
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full sm:w-auto">
