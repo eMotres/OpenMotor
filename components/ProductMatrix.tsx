@@ -23,11 +23,31 @@ const products: Product[] = [
     voltage: "18S 75V",
     motor_mass: "2 kg",
     datasheetUrl: "https://github.com/eMotres/OpenMotor-Hardware/blob/main/doc/CIAG%20125_25_datasheet.pdf",
-    performanceDataUrl: "https://github.com/eMotres/OpenMotor-Hardware/blob/main/data/test/CIAG%20125_25%20-%20test%20propeller%2030x14.csv",
+    performanceDataUrl: "https://github.com/eMotres/OpenMotor-Hardware/blob/main/test/CIAG%20125_25_test_propeller_30x14.csv",
     cadModelUrl: "https://github.com/eMotres/OpenMotor-Hardware/blob/main/CAD/CIAG%20125_25.step"
   },
   { model: "CIAG 125_30", cont_power: "4.5 kW", rotation: "1900 rpm", thrust: "36kg", voltage: "18S 75V", motor_mass: "2.2 kg" },
+  { model: "CIAG 150_40", 
+    cont_power: "10 kW", 
+    rotation: "2000 rpm", 
+    thrust: "60kg", 
+    voltage: "96S 403V", 
+    motor_mass: "4.9 kg",
+    datasheetUrl: "https://github.com/eMotres/OpenMotor-Hardware/blob/main/doc/CIAG%20150_40_datasheet.pdf",
+    performanceDataUrl: "https://github.com/eMotres/OpenMotor-Hardware/blob/main/test/CIAG%20150_40_test_propeller_62.csv",
+    cadModelUrl: "https://github.com/eMotres/OpenMotor-Hardware/blob/main/CAD/CIAG%20150_40.step" 
+  },
   { model: "CIAG 175_40", cont_power: "13 kW", rotation: "3100 rpm", thrust: "60 kg", voltage: "168S 705V", motor_mass: "5.5 kg" },
+  { model: "CIAG 200_30", 
+    cont_power: "13 kW", 
+    rotation: "1600 rpm", 
+    thrust: "70 kg", 
+    voltage: "164S 690V", 
+    motor_mass: "7 kg",
+    datasheetUrl: "https://github.com/eMotres/OpenMotor-Hardware/blob/main/doc/CIAG%20200_30_datasheet.pdf",
+    performanceDataUrl: "https://github.com/eMotres/OpenMotor-Hardware/blob/main/test/CIAG%20200_30_test_propeller_2m.csv",
+    cadModelUrl: "https://github.com/eMotres/OpenMotor-Hardware/blob/main/CAD/CIAG%20200_30.step" 
+  },
 ];
 
 export default function ProductMatrix() {
