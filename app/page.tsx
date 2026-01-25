@@ -18,7 +18,7 @@ export default function Home() {
     ],
     contactPoint: {
       '@type': 'ContactPoint',
-      email: 'vadim@motresres.com',
+      email: 'vadim@emotres.com',
       contactType: 'engineering support',
     },
     description: 'Open Source High-Voltage Motors for Agriculture, Logistics, and Manned Aviation.'
