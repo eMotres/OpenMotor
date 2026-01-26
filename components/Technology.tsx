@@ -43,12 +43,12 @@ const technologies = [
     description: "We utilize high-permeability Grain-Oriented (GO) or Non-Oriented steel (up to 1.9T saturation). This allows us to optimize the core for either maximum torque or high speed."
   },
   {
-    title: "High-Efficiency Cooling System",
+    title: "Adaptive Cooling Technology",
     placeholder: "FIG. 7 (Radiator System)",
-    image: "/Floating Radiators.jpg",
+    image: "/Cooling system.jpg",
     width: 1442,
     height: 649,
-    description: "Spring-loaded radiator segments maintain constant pressure on the stator, automatically compensating for thermal expansion gaps."
+    description: "Our modular architecture features high-efficiency cooling with spring-loaded radiator segments that maintain constant pressure on the stator, automatically compensating for thermal expansion gaps. This scalable system supports options ranging from passive air-cooled fins for lightweight drones to forced-air and high-performance liquid cooling for heavy industrial and aerospace propulsion."
   },
   {
     title: "Rectangular wire Cross-Section",
@@ -65,7 +65,7 @@ const technologies = [
     width: 1500,
     height: 700,
     description: "We provide motors in both Open (O) configurations for optimal weight and Closed (C) versions. Our closed designs are fully sealed to IP65 standards, offering robust protection against dust and water for industrial applications."
-  }
+  },
 ];
 
 export default function Technology() {
