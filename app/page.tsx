@@ -5,23 +5,24 @@ import BusinessModel from '@/components/BusinessModel';
 import Technology from '@/components/Technology';
 import ContactFooter from '@/components/ContactFooter';
 import Patents from '@/components/Patents';
+import OpenResearchRoadmap from '@/components/OpenResearchRoadmap';
 
 export default function Home() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'OpenMotor',
-    url: 'https://emotres.com',
-    image: 'https://emotres.com/CIAG_300.jpg',
+    url: 'https://openmotor.org',
+    image: 'https://openmotor.org/CIAG_300.jpg',
     sameAs: [
       'https://github.com/eMotres',
     ],
     contactPoint: {
       '@type': 'ContactPoint',
-      email: 'vadim@emotres.com',
+      email: 'vadim@motresres.com',
       contactType: 'engineering support',
     },
-    description: 'Open Source High-Voltage Motors for Agriculture, Logistics, and Manned Aviation.'
+    description: 'Open-Hardware Electric Propulsion for drones, robotics, and aviation. Optimized architecture for maximum torque density.'
   };
 
   return (
@@ -38,6 +39,7 @@ export default function Home() {
             <a href="#products" className="hover:text-brand-orange transition-colors">Products</a>
             <a href="#services" className="hover:text-brand-orange transition-colors">Services</a>
             <a href="#technology" className="hover:text-brand-orange transition-colors">Technology</a>
+            <a href="#open-research" className="hover:text-brand-orange transition-colors">Open Research</a>
             <a href="#patents" className="hover:text-brand-orange transition-colors">Patents</a>
             <a href="#contact" className="hover:text-brand-orange transition-colors">Contact</a>
           </div>
@@ -47,6 +49,7 @@ export default function Home() {
       <Hero />
       <Technology />
       <ProductMatrix />
+      <OpenResearchRoadmap />
       <BusinessModel />
       <Patents />
       <ContactFooter />

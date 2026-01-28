@@ -20,7 +20,7 @@ export default function ContactFooter() {
                 </div>
                 <div>
                   <div className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">Direct Engineering Channel</div>
-                  <a href="mailto:vadim@emotres.com" className="text-xl font-bold text-brand-navy hover:text-brand-orange transition-colors">
+                  <a href="mailto:vadim@motresres.com" className="text-xl font-bold text-brand-navy hover:text-brand-orange transition-colors">
                     Mail Us
                   </a>
                 </div>

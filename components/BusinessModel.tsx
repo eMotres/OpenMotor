@@ -7,7 +7,7 @@ export default function BusinessModel() {
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="mb-16 text-center">
           <h2 className="text-4xl font-bold text-brand-navy mb-4">Services & Collaboration</h2>
-          <p className="text-brand-slate max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Flexible engineering solutions for your propulsion needs.
           </p>
         </div>

@@ -85,10 +85,10 @@ export default function ProductMatrix() {
 
   return (
     <section id="products" className="py-24 bg-brand-light border-b border-gray-200">
-      <div className="container mx-auto px-6 max-w-6xl">
-        <div className="mb-16">
-          <h2 className="text-4xl font-bold text-brand-navy mb-4">Propulsion Matrix</h2>
-          <p className="text-brand-slate max-w-2xl">
+      <div className="container mx-auto px-6">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Propulsion Matrix</h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Supports 50–800 V via flexible coil topology. Built for heavy-duty applications.
           </p>
         </div>

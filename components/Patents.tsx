@@ -8,7 +8,7 @@ export default function Patents() {
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="mb-16 text-center">
           <h2 className="text-4xl font-bold text-brand-navy mb-4">Intellectual Property Portfolio</h2>
-          <p className="text-brand-slate max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Our portfolio of international patents and applications.
           </p>
         </div>
