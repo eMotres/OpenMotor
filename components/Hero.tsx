@@ -18,7 +18,7 @@ export default function Hero() {
             </h1>
             
             <p className="text-2xl md:text-3xl text-brand-slate max-w-2xl font-light leading-relaxed">
-              Open Source Low and High Voltage electric motors for Drones, Aviation, Robotics and Propulsion. 
+            Open-Hardware electric propulsion for Drones, Robotics and Aviation. Optimized architecture for maximum Torque Density.
               <span className="block mt-2 font-medium text-brand-navy">Designed for Mass Production.</span>
             </p>
             
