@@ -12,9 +12,6 @@ export async function generateMetadata(): Promise<Metadata> {
     metadataBase: new URL('https://openmotor.org'),
     alternates: {
       canonical: '/',
-      languages: {
-        'en-US': '/en-US',
-      },
     },
     openGraph: {
         type: 'website',
